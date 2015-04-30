@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemalist>
+	<schema path="/home/raphaelg/.local/share/gnome-shell/extensions/" id="org.gnome.shell.extensions.translate" >
+		<key type="as" name="open-translate">
+			<default><![CDATA[['<Super>t']]]></default>
+			<summary>The key you want to open translate.</summary>
+		</key>
+	</schema>
+</schemalist>

@@ -1,0 +1,29 @@
+.boxLayout {
+    background-color: rgb(40, 40, 40);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,1.0);
+}
+
+.translateEntry {
+    width: 300px;
+    height: 40px;
+    font-size: 14px;
+    color: rgb(200, 200, 200);
+    padding: 0 10px;
+}
+
+.translateButton {
+    width: 80px;
+    height: 40px;
+    color: rgb(200, 200, 200);
+    background-color: rgb(60, 60, 60);
+}
+
+.translateButton:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+.translateButton:active {
+    background-color: rgb(50, 120, 200);
+}
+
+
