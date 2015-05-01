@@ -12,7 +12,7 @@ const Lang = imports.lang;
 const KEY_RETURN = 65293;
 const KEY_ENTER = 65421;
 
-let boxLayout, translateEntry, translateButton, button, isOpen;
+let boxLayout, translateEntry, translateButton, isOpen;
 
 function _hideTranslate() {
     Main.uiGroup.remove_actor(boxLayout);
@@ -140,4 +140,5 @@ function enable() {
 
 function disable() {
     Main.wm.removeKeybinding('open-translate');
+    _hideTranslate();
 }
