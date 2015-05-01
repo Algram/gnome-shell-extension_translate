@@ -127,27 +127,10 @@ function _getSettings() {
 
 function init() {
     isOpen = false;
-    button = new St.Bin({
-        style_class: 'panel-button',
-        reactive: true,
-        can_focus: true,
-        x_fill: true,
-        y_fill: false,
-        track_hover: true
-    });
-
-    let icon = new St.Icon({
-        icon_name: 'system-run-symbolic',
-        style_class: 'system-status-icon'
-    });
-
-    button.set_child(icon);
-    button.connect('button-press-event', _showTranslate);
 }
 
 
 function enable() {
-    Main.panel._rightBox.insert_child_at_index(button, 0);
     Main.wm.addKeybinding('open-translate',
         _getSettings(),
         Meta.KeyBindingFlags.NONE,
@@ -156,8 +139,5 @@ function enable() {
 }
 
 function disable() {
-    Main.panel._rightBox.remove_child(button);
     Main.wm.removeKeybinding('open-translate');
-
-    Main.uiGroup.remove_actor(boxLayout);
 }
