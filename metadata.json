@@ -1,1 +1,15 @@
-{"shell-version": ["3.18.0", "3.18.2", "3.20.0"], "uuid": "translate@aliasgram-gmail.com", "name": "Translate", "description": "Using the Yandex API to translate everything."}
+{
+  "description": "Using the Yandex API to translate everything", 
+  "name": "Translate", 
+  "shell-version": [
+    "3.10", 
+    "3.12", 
+    "3.14", 
+    "3.16",
+    "3.18",
+    "3.20"
+  ], 
+  "url": "https://github.com/Algram/gnome-shell-extension_translate", 
+  "uuid": "translate@aliasgram-gmail.com", 
+  "version": 3
+}
